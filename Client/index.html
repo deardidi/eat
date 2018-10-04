@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<script type="text/javascript" src="bootstrap-3.3.7-dist/js/jquery-2.1.4.min.js" ></script>
+	<script type="text/javascript" src="bootstrap-3.3.7-dist/js/bootstrap.js" ></script>
+	<script type="text/javascript" src="js/index.js" ></script>
+	<script type="text/javascript" src="js/url.js" ></script>
+	<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.css" />
+	<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap-theme.css" />
+	<link rel="stylesheet" href="css/index.css" />
+	<title>index</title>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-1 main_1">
+				<ul class="ul_index_1 list-unstyled">
+					<li class="Hover">
+						<span class="glyphicon glyphicon-usd"></span>
+						<p>收银</p>
+					</li>
+					<li>
+						<span class="glyphicon glyphicon-tower"></span>
+						<p>会员</p>
+					</li>
+					<li>
+						<span class="glyphicon glyphicon-list-alt"></span>
+						<p>库存</p>
+					</li>
+					<li>
+						<span class="glyphicon glyphicon-list-alt"></span>
+						<p>换班</p>
+					</li>
+					<li>
+						<span class="glyphicon glyphicon-calendar"></span>
+						<p>报表</p>
+					</li>
+					<li>
+						<span class="glyphicon glyphicon-list-alt"></span>
+						<p>辅助</p>
+					</li>
+					<li>
+						<span class="glyphicon glyphicon-off"></span>
+						<p>退出</p>
+					</li>
+					
+				</ul>
+			</div>
+			
+			
+			<div class="col-xs-4 main_2">
+				<ul id="myTab" class="nav nav-tabs myTab1">
+				    <li class="active">
+				        <a href="#goodslist" data-toggle="tab">点餐</a>
+				    </li>
+				    <li><a href="#order" id="orderlistGet" data-toggle="tab">订单列表</a></li>
+				    
+				</ul>
+				<div id="myTabContent" class="tab-content myTabContent1">
+				    <div class="tab-pane fade in active" id="goodslist">
+				        <table class="table">
+						  <thead id="goodsThead">
+						    <tr>
+						       <th>商品</th>
+						       <th>数量</th>
+						       <th>金额</th>
+						       <th>操作</th>
+						    </tr>
+						    <tr>
+						       <td>包子</td>
+						       <td>1</td>
+						       <td>2</td>
+						       <td>删除</td>
+						    </tr>
+						  </thead>
+						  <tbody id="goodsTbody">
+						    
+						  </tbody>
+						</table>
+						
+						<div class="Total">数量:<span id="OrderNum">0</span>  总价:<span id="OrderAllPrice">0</span>元</div>
+						<div class="center-block Btn">
+							<button class="btn btn_1">清空</button>
+							<button class="btn btn_2">结账</button>
+						</div>
+				    </div>
+				    <div class="tab-pane fade" id="order">
+				        <table class="table">
+				        	<caption>
+				        		<p class="orderNumber">订单编号:<span>5b1a3ce804444a1adadcac90</span></p>
+				        		<p class="orderPrice">订单总价：<span>4</span>元</p>
+				        	</caption>
+						  <thead id="orderThead">
+						    <tr>
+						      <th>商品名称</th>
+						      <th>商品数量</th>
+						      <th>商品单价</th>
+						    </tr>
+						  </thead>
+						  <tbody id="orderTbody">
+						    
+						    <tr>
+						      <td>Sachin</td>
+						      <td>3</td>
+						      <td>34</td>
+						    </tr>
+						  </tbody>
+						</table>
+						<table class="table">
+				        	<caption>
+				        		<p class="orderNumber">订单编号:<span>5b1a3ce804444a1adadcac90</span></p>
+				        		<p class="orderPrice">订单总价：<span>4</span>元</p>
+				        	</caption>
+						  <thead id="orderThead">
+						    <tr>
+						      <th>商品名称</th>
+						      <th>商品数量</th>
+						      <th>商品单价</th>
+						    </tr>
+						  </thead>
+						  <tbody id="orderTbody">
+						    <tr>
+						      <td>Tanmay</td>
+						      <td>2</td>
+						       <td>15</td>
+						    </tr>
+						    <tr>
+						      <td>Sachin</td>
+						      <td>3</td>
+						       <td>34</td>
+						    </tr>
+						  </tbody>
+						</table>
+				    </div>
+				</div>
+			</div>
+			
+			
+			<div class="col-xs-7 main_3">
+				<p class="TiT">常用商品</p>
+				<div class="main_3_Recommend">
+					<ul class="list-unstyled" id="TuiJian">
+						<li class="goodsWarp"><p class="goodsname">香辣鸡腿堡</p><p>￥<span class="goodsprice">16</span>元</p></li>
+						<li class="goodsWarp"><p class="goodsname">香辣鸡腿</p><p>￥<span class="goodsprice">14</span>元</p></li>
+					</ul>
+					
+				</div>
+				
+				<ul id="myTab" class="nav nav-tabs">
+				    <li class="active"><a class="goodsStyle" href="#hanbao" data-toggle="tab">汉堡</a></li>
+				    <li><a class="goodsStyle" href="#zhushi" data-toggle="tab">主食</a></li>
+				    <li><a class="goodsStyle" href="#yinliao" data-toggle="tab">饮料</a></li>
+				</ul>
+				<div id="myTabContent" class="tab-content">
+				    <div class="tab-pane fade in active" id="hanbao">
+				    	<ul class="list-unstyled goodsul">
+				    		<li class="goodsWarp">
+				    			<div><img src="img/pos001.jpg" /></div>
+				    			<div>
+				    				<p class="goodsname">香辣鸡腿堡</p>
+				    				<p>￥<span class="goodsprice">14</span>元</p>
+				    			</div>
+				    		</li>
+							<li class="goodsWarp">
+				    			<div><img src="img/pos001.jpg" /></div>
+				    			<div>
+				    				<p class="goodsname">香</p>
+				    				<p>￥<span class="goodsprice">14</span>元</p>
+				    			</div>
+				    		</li>
+							<li class="goodsWarp">
+				    			<div><img src="img/pos001.jpg" /></div>
+				    			<div>
+				    				<p class="goodsname">辣</p>
+				    				<p>￥<span class="goodsprice">14</span>元</p>
+				    			</div>
+				    		</li>
+
+				    	</ul>
+				    </div>
+				    <div class="tab-pane fade" id="zhushi">
+				        <ul class="list-unstyled goodsul">
+				    		<li class="goodsWarp">
+				    			<div><img src="img/pos001.jpg" /></div>
+				    			<div>
+				    				<p class="goodsname">香辣鸡腿堡</p>
+				    				<p>￥<span class="goodsprice">14</span>元</p>
+				    			</div>
+				    		</li>
+				    		
+				    	</ul>
+				    </div>
+				    <div class="tab-pane fade" id="yinliao">
+				        <ul class="list-unstyled goodsul">
+				    		<li class="goodsWarp">
+				    			<div><img src="img/pos001.jpg" /></div>
+				    			<div>
+				    				<p class="goodsname">香辣鸡腿堡</p>
+				    				<p>￥<span class="goodsprice">14</span>元</p>
+				    			</div>
+				    		</li>
+				    		
+				    	</ul>
+				    </div>
+				</div>
+				
+				
+			</div>
+		</div>
+	</div>
+</body>
+</html>

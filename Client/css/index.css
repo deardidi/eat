@@ -1,0 +1,240 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 100%;
+	height: 700px;
+}
+.main_1{
+	height: 700px;
+	background: #FFFFFF;
+	padding: 0;
+}
+.main_2{
+	height: 700px;
+	background: #FFFFFF;
+	padding: 0;
+	overflow: auto;
+}
+.main_3{
+	height: 700px;
+	background: #F1F1F1;
+	padding: 0;
+}
+.ul_index_1{
+	width: 100%;
+	height: 100%;
+	
+}
+.Hover{
+	background: #dd375f !important;
+}
+.ul_index_1 li{
+	width: 100%;
+	height:100px;
+	background: #429BFF;
+	border-bottom: #76C0CA 1px solid;
+}
+.ul_index_1 li span{
+	width: 100%;
+	height: 50%;
+	text-align: center;
+	padding-top: 20px ;
+	color: #FFFFFF;
+}
+.ul_index_1 li p{
+	color: #FFFFFF;
+	text-align: center;
+	margin-top: 10px;
+}
+#myTab {
+	border-bottom: #E4E7ED 2px solid;
+	
+}
+ #myTab .active a{
+	border: none;
+	border-bottom: #429BFF 2px solid;
+}
+#goodslist{
+	padding: 15px 5px;
+}
+
+#goodsThead tr th{
+	border: #E1E5EE 1px solid;
+	text-align: center;
+}
+#goodsThead tr th:nth-child(2), #goodsThead tr th:nth-child(3), #goodsThead tr th:nth-child(4){
+	text-align: center;
+}
+#goodsThead tr th:nth-child(1){
+	width: 200px;
+}
+#goodsTbody tr td:nth-child(1){
+	width: 200px;
+}
+#goodsTbody tr td:nth-child(2), #goodsTbody tr td:nth-child(3), #goodsTbody tr td:nth-child(4){
+	text-align: center;
+}
+#goodsTbody tr td{
+	border: #EFEFEF 1px solid;
+}
+#goodsTbody tr td:nth-child(4){
+	color: #429BFF;
+}
+
+.Total{
+	text-align: right;
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing:2px;
+	padding-right: 15px;
+}
+.btn_1{
+	background: #F56C6C;
+	color: #FFFFFF;
+	padding: 8px 15px;
+	margin-right: 10px;
+}
+.btn_2{
+	background: #67C23A;
+	color: #FFFFFF;
+	padding: 8px 15px;
+}
+.Btn{
+	width: 100%;
+	margin: 10px auto;
+	text-align: center;
+}
+
+#order{
+	padding: 15px 5px;
+}
+caption{
+	background: #FBFBFB;
+	padding:10px 5px;
+	border: none;
+	border: #EFEFEF 1px solid;
+}
+.orderNumber{
+	width: 70%;
+    float: left;
+    color: #000000;
+    margin: 0;
+}
+.orderPrice{
+	width: 30%;
+    float: left;
+    text-align: right;
+    padding-right: 20px;
+    color: red;
+    margin: 0;
+}
+#orderThead{
+	padding: 5px;
+	border: #EFEFEF 1px solid;
+	background: #F8F8D9;
+	
+}
+#orderThead tr{
+	border: #EFEFEF 1px solid;
+	
+}
+#orderThead tr th{
+	text-align: center;
+}
+#orderTbody{
+	text-align: center;
+}
+
+.main_3{
+	background: #F3F3F3;
+}
+.TiT{
+	background: #FFFFFF;
+	padding: 10px;
+	font-size: 16px;
+	font-weight: 600;
+}
+.main_3_Recommend{
+	width: 100%;
+	height:auto ;
+	padding: 5px;
+	
+}
+.main_3_Recommend ul{
+	box-sizing: content-box;
+}
+.main_3_Recommend ul li{
+	display: inline-block;
+	width: auto;
+	padding:10px;
+	margin: 8px;
+	background: #FFFFFF;
+	font-size: 16px;
+	font-weight: 500;
+}
+.main_3_Recommend ul li p{
+	display: inline-block;
+	width: auto;
+	padding:0px;
+	margin: 0px;
+	background: #FFFFFF;
+	font-size: 16px;
+	font-weight: 500;
+}
+.main_3_Recommend ul li span{
+	color: #429BFF;
+	margin-left: 5px;
+}
+.goodsStyle{
+	background: none !important;
+}
+.goodsul{
+	padding: 10px;
+}
+.goodsul li{
+	display: inline-block;
+	width: auto;
+	margin: 8px 15px;
+	background: #FFFFFF;
+	
+}
+.goodsul li div:nth-child(1){
+	width: 90px;
+    float: left;
+}
+.goodsul li div:nth-child(1) img{
+	width: 90px;
+	height: 90px;
+}
+.goodsul li div:nth-child(2){
+	width: 150px;
+    height: auto;
+    float: left;
+    padding: 5px;
+}
+.goodsul li div:nth-child(2) p:nth-child(1){
+	color: #AA3535;
+	margin-left: 5px;
+}
+.goodsul li div:nth-child(2) p:nth-child(2){
+	margin-left: 5px;
+}
+.table{
+	border:0;
+	margin-top: 45px;
+}
+.table td{
+	border: #EFEFEF 1px solid;
+	text-align: center;
+	
+}
+.myTab1{
+	width: 100%;
+    position: fixed;
+    background: #ffffff;
+}
+.myTabContent1{
+	margin-top: 50px;
+}
